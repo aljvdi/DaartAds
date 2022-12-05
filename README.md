@@ -7,7 +7,7 @@ You can use this library to access the DaartAds APIs.
 
 ## Installation
 ```shell
-composer require aljvdi/DaartAds
+composer require javadi/daart-ads
 ```
 
 ## Usage
