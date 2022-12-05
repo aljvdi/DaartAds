@@ -22,21 +22,9 @@ $ads = $DaartADS->GetADS(CHOOSING_AD_SIZE);
 
 ```
 - You will receive a list with all the information for the show ADS (Include _AdDetails_ & _CallBack_ Link)
-```json
-[
-      {
-        "AdDetails": {
-          "Cid": CLICK_ID,
-          "Source": YOUR_ID,
-          "image": BANNER_OF_ADS,
-          "adsize": CHOSEN_AD_SIZE,
-          "platform": AUTOMATICALLY_OBTAIN,
-          "os": AUTOMATICALLY_OBTAIN
-        },
-        "CallBack": CALLBACK_YOU_WILL_SEND_YOUR_CLIENT_INTO_IT
-      }
-]
-```
+
+  ![List DEMO](list_demo.png "Title")
+
 - For whatever purpose, you may utilise the static AdCallBack() function to construct your own callback:
 ```php
 $DaartADS::AdCallBack(CLICK_ID,YOUR_ID,CHOSEN_AD_SIZE);
