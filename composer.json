@@ -1,0 +1,25 @@
+{
+    "name": "javadi/daart-ads",
+    "description": "Smart Ads PHP Library by Daart Company",
+    "homepage": "https://github.com/aljvdi/DaartAds",
+    "keywords": ["daart","smart ads", "daart ads"],
+    "type": "library",
+    "require": {
+        "ext-curl": "*",
+        "ext-json": "*",
+        "php": ">=7.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "javadi\\DaartAgency\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Javadi",
+            "email": "alex@aljm.org",
+            "homepage": "https://aljm.org"
+        }
+    ]
+}
