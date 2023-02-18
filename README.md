@@ -31,4 +31,4 @@ $ads = $DaartADS->GetADS();
 
 > From versions V1.1 and after, we'll provide the redirect link for you; you don't need to construct it yourself.
 
-### A complete demo is available at [```Demo/demo.php```](./demo/demo.php)
+### A complete demo is available at ```Demo/demo.php```
